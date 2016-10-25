@@ -7,7 +7,7 @@ void setup() {
   snake = new Snake(255, 0, 0, 90, "ellipse");
   video = new Capture(this, width, height);
   video.start();
-  trackColor = color(0, 255, 0);
+  trackColor = color(0, 0, 255);
 }
 void captureEvent(Capture video) {
   video.read();
